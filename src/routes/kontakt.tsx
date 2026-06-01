@@ -11,6 +11,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
+import logo from "@/assets/941db0c3-48bf-4fff-b612-76a52263f96c.png";
 import {
   Select,
   SelectContent,
@@ -347,9 +348,7 @@ export function PageHeader() {
     <header className="sticky top-0 z-50 border-b border-border/40 bg-background/80 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6">
         <Link to="/" className="flex items-center gap-3">
-          <div className="grid h-10 w-10 place-items-center rounded-md border border-primary/40 bg-card">
-            <span className="font-display text-lg font-bold text-primary">A</span>
-          </div>
+          <img src={logo} alt="Aliu's Allround Service Logo" className="h-10 w-10 rounded-md image-hover" />
           <div className="leading-tight">
             <div className="font-display text-base font-semibold tracking-tight">Aliu's</div>
             <div className="text-[9px] font-medium uppercase tracking-[0.28em] text-muted-foreground">

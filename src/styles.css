@@ -115,6 +115,22 @@
     background: var(--gradient-accent-line);
     height: 1px;
   }
+  .image-hover {
+    transition: transform 400ms cubic-bezier(0.34, 1.56, 0.64, 1);
+    will-change: transform;
+  }
+  .image-hover-1:hover {
+    transform: scale(1.01) rotate(-0.7deg);
+  }
+  .image-hover-2:hover {
+    transform: scale(1.01) rotate(0.7deg);
+  }
+  .image-hover-3:hover {
+    transform: scale(1.01) rotate(-0.5deg);
+  }
+  .image-hover-4:hover {
+    transform: scale(1.01) rotate(0.5deg);
+  }
   .grid-lines {
     background-image:
       linear-gradient(oklch(0.78 0.09 80 / 0.05) 1px, transparent 1px),
